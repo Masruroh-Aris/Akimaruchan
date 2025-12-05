@@ -1,122 +1,59 @@
-# Akimaruchan
-Akimaruchan: Sistem Manajemen Diri Berbasis Laravel 12. Solusi all-in-one untuk mahasiswa IT. Pantau IPK dengan akurasi tinggi, kelola jadwal ujian, dan lacak deadline tugas dalam satu dashboard yang responsif. Dilengkapi fitur Learning Contract, integrasi GitHub, dan antarmuka personal yang ramah. Teman digital terbaik untuk perjalanan akademikmu.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Akimaruchan 🐱
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-**Sistem Manajemen Diri Mahasiswa & Asisten Akademik Cerdas**
-*Built with Laravel 12*
+## About Laravel
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Framework](https://img.shields.io/badge/Laravel-12.x-red)
-![License](https://img.shields.io/badge/License-MIT-blue)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 📖 Tentang Akimaruchan
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-**Akimaruchan** bukan sekadar aplikasi *To-Do List* biasa. Ini adalah sistem manajemen diri yang dirancang khusus untuk mahasiswa Informatika, mengubah kekacauan jadwal kuliah menjadi alur kerja yang terstruktur dan berbasis data.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### 🐈 Filosofi & Inspirasi
-Nama sistem ini diambil dari **Akimaru**, kucing kesayangan saya saat masa sekolah menengah. Filosofi ini menjadi nyawa dari pengembangan sistem:
-* **Lincah:** Performa aplikasi yang cepat berbasis Laravel 12.
-* **Responsif:** Antarmuka yang adaptif (sidebar "minggir" otomatis saat layar kecil/split-screen).
-* **Setia:** Selalu ada 24/7 untuk mengingatkan deadline dan jadwal ujian.
+## Learning Laravel
 
----
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-## 🚀 Fitur Unggulan
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### 1. 🔒 Keamanan & Personalisasi (Auth)
-* **Restricted Login:** Akses eksklusif hanya untuk NIM **2023150103**.
-* **Interactive Mascot:** Animasi kucing lucu pada halaman login yang bereaksi terhadap interaksi pengguna.
-* **Dynamic Profile:** Avatar kustom (Hijab Style), sapaan personal ("Halo, Masruroh!"), dan edit data Semester/Tahun Ajaran langsung dari sidebar.
+## Laravel Sponsors
 
-### 2. 🎓 Manajemen Akademik (Core)
-* **Transkrip Nilai Presisi:**
-    * Mencatat riwayat 39 mata kuliah.
-    * **Kalkulator IPK Real-time:** Menghitung hingga 4 digit desimal (misal: 3.9305) dan mendukung nilai mutu spesifik (3.90, 3.60).
-    * **Analisis "Path to 4.00":** Saran cerdas mata kuliah mana yang perlu diulang untuk mencapai IPK sempurna.
-* **Course Management:** Kartu mata kuliah dengan *Progress Bar*, *Learning Contract*, dan *Target Grade*.
-* **Exam Schedule:** Jadwal UTS/UAS terintegrasi dengan input nilai hasil ujian.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### 3. ⚡ Produktivitas & Dashboard
-* **Priority Task Card:** Hero section otomatis menampilkan tugas dengan deadline terdekat.
-* **Task Tracker:** Manajemen tugas dengan status warna (High/Medium/Low) dan status pengerjaan.
-* **Quick Links:** Navigasi cepat ke **SIMA UNSIQ** dan **GitHub Dashboard**.
+### Premium Partners
 
-### 4. 📅 Manajemen Waktu (Right Sidebar)
-* **Auto-Reminders:** Pengingat otomatis untuk H-7 Tugas dan H-30 Ujian.
-* **Responsive Calendar:** Kalender interaktif dengan *today highlight*.
-* **Collapsible UI:** Sidebar kanan dapat disembunyikan untuk mode fokus (*Distraction Free*).
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
----
+## Contributing
 
-## 🛠️ Teknologi yang Digunakan
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-* **Backend:** Laravel 12 (PHP)
-* **Database:** MySQL
-* **Frontend:** Blade Templates, CSS3 (Responsive Flexbox/Grid), JavaScript (Interactive DOM)
-* **Tools:** Composer, Artisan
+## Code of Conduct
 
----
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## 💻 Cara Instalasi (Installation Guide)
+## Security Vulnerabilities
 
-Karena repositori ini mungkin tidak menyertakan folder `vendor` (dan file `.env`), silakan ikuti langkah berikut untuk menjalankannya di komputer lokal Anda:
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-### Prasyarat
-* PHP >= 8.2
-* Composer
-* MySQL / MariaDB
+## License
 
-### Langkah-langkah
-
-1.  **Clone Repositori**
-    ```bash
-    git clone [https://github.com/username-anda/akimaruchan.git](https://github.com/username-anda/akimaruchan.git)
-    cd akimaruchan
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    composer install
-    npm install && npm run build
-    ```
-
-3.  **Konfigurasi Environment**
-    * Duplikat file `.env.example` menjadi `.env`.
-    * Buka file `.env` dan atur koneksi database Anda:
-    ```env
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=akimaruchan_db
-    DB_USERNAME=root
-    DB_PASSWORD=
-    ```
-
-4.  **Generate Key**
-    ```bash
-    php artisan key:generate
-    ```
-
-5.  **Migrasi Database & Seeding (PENTING)**
-    Langkah ini akan membuat tabel dan mengisi data dummy (Transkrip, Akun Login, Tugas).
-    ```bash
-    php artisan migrate:fresh --seed
-    ```
-
-6.  **Jalankan Server**
-    ```bash
-    php artisan serve
-    ```
-    Buka browser dan akses: `http://localhost:8000`
-
----
-
-## 🔑 Akun Demo
-
-Untuk masuk ke dalam sistem, gunakan kredensial berikut (Sesuai Seeder):
-
-* **NIM:** `2023150103`
-* **Password:** (Default password dari seeder/auth logic Anda, misal `password` atau kosong jika bypass logic)
-
----
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
